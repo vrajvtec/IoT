@@ -196,6 +196,6 @@ void soilMoistureSensor(){
       }
       else if (moisturePercentage > 60) {
      digitalWrite(relyPump,HIGH);
-      }
+          }
   
 }
